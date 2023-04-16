@@ -53,10 +53,10 @@ const AboutPage: NextPage = () => {
               <div>
                 <h2 className="text-2xl font-bold text-gray-50 mb-8">Why We&apos;re Doing It</h2>
                 <p className="mt-2 text-gray-500">
-                  The driving force behind ToolKit is our desire to empower developers by providing them with the best possible tools to enhance their workflow. We understand the complexities and challenges that developers face daily, and we're committed to making their lives easier and more productive.
+                  The driving force behind ToolKit is our desire to empower developers by providing them with the best possible tools to enhance their workflow. We understand the complexities and challenges that developers face daily, and we&apos;re committed to making their lives easier and more productive.
                 </p>
                 <p className="mt-2 text-gray-500">
-                  By crafting a versatile and user-friendly platform, we aim to support developers of all skill levels, from beginners to experts. ToolKit is designed to adapt to each individual's needs, simplifying processes and ultimately allowing developers to focus on what truly matters: creating outstanding software.
+                  By crafting a versatile and user-friendly platform, we aim to support developers of all skill levels, from beginners to experts. ToolKit is designed to adapt to each individual&apos;s needs, simplifying processes and ultimately allowing developers to focus on what truly matters: creating outstanding software.
                 </p>
               </div>
             </div>
