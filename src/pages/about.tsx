@@ -51,7 +51,7 @@ const AboutPage: NextPage = () => {
                 </p>
               </div>
               <div>
-                <h2 className="text-2xl font-bold text-gray-50 mb-8">Why We're Doing It</h2>
+                <h2 className="text-2xl font-bold text-gray-50 mb-8">Why We&apos;re Doing It</h2>
                 <p className="mt-2 text-gray-500">
                   The driving force behind ToolKit is our desire to empower developers by providing them with the best possible tools to enhance their workflow. We understand the complexities and challenges that developers face daily, and we're committed to making their lives easier and more productive.
                 </p>
