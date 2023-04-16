@@ -11,8 +11,7 @@ export const HomeNavBar = () => {
           </h1>
           <HomeNavBarListItem path={'/'} title={'Home'} />
           <HomeNavBarListItem path={'/about'} title={'About'} />
-          <HomeNavBarListItem path={'/contact'} title={'Contact'}/>
-          <HomeNavBarListItem path={'/pricing'} title={'Pricing'}/>
+          <HomeNavBarListItem path={'/sponsor'} title={'Sponsor'}/>
           <HomeNavBarListItem path={'https://github.com/dallenpyrah/toolkit'} title={'Github'}/>
         </div>
       </div>
