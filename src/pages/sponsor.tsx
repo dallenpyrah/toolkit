@@ -16,7 +16,7 @@ const SponsorPage: NextPage = () => {
               Sponsor<span className={'text-indigo-500'}></span>
             </h1>
             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-4xl sm:mx-auto md:mt-5 md:text-xl">
-              We appreciate your support! By sponsoring our GitHub repository, you're helping us continue to develop and maintain ToolKit.
+              We appreciate your support! By sponsoring our GitHub repository, you&apos;re helping us continue to develop and maintain ToolKit.
             </p>
             <div className="mt-20 space-y-10">
               <div className="bg-gray-800 rounded-lg p-6 text-center">
