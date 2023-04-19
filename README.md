@@ -22,7 +22,7 @@ Detailed installation instructions will be provided once the project reaches the
 ## **System Architecture Plan**
 
 - **Frontend Service**: Handles the user interface, dashboard customization, and interaction with backend services via APIs.
-- **API Gateway**: Acts as a single entry point for all client requests, forwarding them to appropriate microservices, and handles authentication and rate-limiting.
+- **[API Gateway](https://github.com/dallenpyrah/toolkit-gateway)**: Acts as a single entry point for all client requests, forwarding them to appropriate microservices, and handles authentication and rate-limiting.
 - **User Management Service**: Manages user accounts, authentication, and authorization.
 - **Integration Services**: A set of microservices, one for each supported platform (e.g., GitHub, GitLab, Bitbucket, Jira, Trello, Slack), responsible for fetching data from their respective APIs and sending updates to the frontend.
 - **AI Service**: Processes data from integration services, generates insights, smart recommendations, and task prioritization.
