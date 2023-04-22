@@ -3,9 +3,11 @@ import { useRouter } from "next/router";
 export const HomeNavBarListItem = ({
   path,
   title,
+  onClick,
 }: {
   path: string;
   title: string;
+  onClick?: () => void;
 }) => {
   const router = useRouter();
   const { pathname } = router;

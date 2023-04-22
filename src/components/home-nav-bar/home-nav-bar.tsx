@@ -27,7 +27,6 @@ export const HomeNavBar = () => {
               <HomeNavBarListItem
                 path={'https://github.com/dallenpyrah/toolkit'}
                 title={'Github'}
-                isExternal
               />
             </div>
           </div>
@@ -65,25 +64,21 @@ export const HomeNavBar = () => {
             <HomeNavBarListItem
               path="/"
               title="Home"
-              isActive={router.pathname === '/'}
               onClick={toggleMenu}
             />
             <HomeNavBarListItem
               path="/about"
               title="About"
-              isActive={router.pathname === '/about'}
               onClick={toggleMenu}
             />
             <HomeNavBarListItem
               path="/sponsor"
               title="Sponsor"
-              isActive={router.pathname === '/sponsor'}
               onClick={toggleMenu}
             />
             <HomeNavBarListItem
               path="https://github.com/dallenpyrah/toolkit"
               title="Github"
-              isExternal
               onClick={toggleMenu}
             />
           </div>
