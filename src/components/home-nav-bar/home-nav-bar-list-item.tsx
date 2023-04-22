@@ -18,7 +18,7 @@ export const HomeNavBarListItem = ({
     <h1
       className={`${
         pathname == path ? "text-indigo-500" : "text-white"
-      } transition cursor-pointer text-md font-bold ml-10 tracking-tight text-white p-3 hover:text-gray-500`}
+      } transition cursor-pointer text-base text-sm lg:text-lg font-bold tracking-tight text-white p-3 hover:text-gray-500`}
       onClick={() => void navigate(path)}
     >
       {title}

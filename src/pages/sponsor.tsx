@@ -15,10 +15,10 @@ const SponsorPage: NextPage = () => {
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-50 sm:text-5xl md:text-6xl">
               Sponsor<span className={'text-indigo-500'}></span>
             </h1>
-            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-4xl sm:mx-auto md:mt-5 md:text-xl">
+            <p className="mt-3 px-5 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-4xl sm:mx-auto md:mt-5 md:text-xl">
               We appreciate your support! By sponsoring our GitHub repository, you&apos;re helping us continue to develop and maintain ToolKit.
             </p>
-            <div className="mt-20 space-y-10">
+            <div className="mt-20 space-y-10 px-5">
               <div className="bg-gray-800 rounded-lg p-6 text-center">
                 <h2 className="text-2xl font-bold text-gray-50 mb-4">Support Tool<span className={'text-indigo-500'}>Kit</span></h2>
                 <p className="text-gray-500">
