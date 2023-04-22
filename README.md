@@ -19,18 +19,6 @@ ToolKit is an open-source, AI-powered customizable dashboard that integrates wit
 
 Detailed installation instructions will be provided once the project reaches the alpha release stage.
 
-## **System Architecture Plan**
-
-- **Frontend Service**: Handles the user interface, dashboard customization, and interaction with backend services via APIs.
-- **API Gateway**: Acts as a single entry point for all client requests, forwarding them to appropriate microservices, and handles authentication and rate-limiting.
-- **User Management Service**: Manages user accounts, authentication, and authorization.
-- **Integration Services**: A set of microservices, one for each supported platform (e.g., GitHub, GitLab, Bitbucket, Jira, Trello, Slack), responsible for fetching data from their respective APIs and sending updates to the frontend.
-- **AI Service**: Processes data from integration services, generates insights, smart recommendations, and task prioritization.
-- **Notification Service**: Sends real-time notifications and updates to the frontend based on data from integration services and the AI service.
-- **Plugin Service**: Manages the installation, configuration, and communication of custom plugins with other services.
-- **Search Service**: Provides cross-platform search functionality by indexing data from all integration services.
-- **Database**: A database for storing user data, dashboard configurations, plugin settings, and any other required data.
-
 ## **Roadmap**
 
 ### **Phase 1: Research and Planning**
